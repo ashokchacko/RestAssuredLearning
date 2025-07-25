@@ -4,11 +4,9 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.util.Map;
-
 import static io.restassured.RestAssured.*;
 
-public class HandlingHeaders {
+public class Four_HandlingHeaders {
 
     @BeforeClass
     public void setup()

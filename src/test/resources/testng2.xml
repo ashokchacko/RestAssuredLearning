@@ -3,22 +3,22 @@
 <suite name="All Test Suite">
     <test name="Test1">
         <classes>
-            <class name = "HandlingChainingCreateUser" />
+            <class name = "Sixteen_HandlingChainingCreateUser" />
         </classes>
     </test>
     <test name="Test2">
         <classes>
-            <class name = "HandlingChainingGetUser" />
+            <class name = "Seventeen_HandlingChainingGetUser" />
         </classes>
     </test>
     <test name="Test3">
         <classes>
-            <class name = "HandlingChainingUpdateUser" />
+            <class name = "Eighteen_HandlingChainingUpdateUser" />
         </classes>
     </test>
     <test name="Test4">
         <classes>
-            <class name = "HandlingChainingDeleteUser" />
+            <class name = "Nineteen_HandlingChainingDeleteUser" />
         </classes>
     </test>
 </suite>

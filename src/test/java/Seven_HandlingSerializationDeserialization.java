@@ -2,12 +2,12 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.testng.annotations.Test;
 
-public class HandlingSerializationDeserialization {
+public class Seven_HandlingSerializationDeserialization {
 
     @Test(priority = 1)
     void serialization() throws JsonProcessingException //convert pojo to json
     {
-        POJOBaseClass stupojo = new POJOBaseClass(); //Created java object using pojo class
+        Three_POJOBaseClass stupojo = new Three_POJOBaseClass(); //Created java object using pojo class
         stupojo.setName("James");
         stupojo.setLocation("Australia");
         stupojo.setPhone("9899999999");
@@ -34,7 +34,7 @@ public class HandlingSerializationDeserialization {
         //converting json data to pojo object: Deserialization
         ObjectMapper stuobj = new ObjectMapper();
 
-        POJOBaseClass stupojo = stuobj.readValue(jsondata,POJOBaseClass.class); //POJOBaseClass is the java class file
+        Three_POJOBaseClass stupojo = stuobj.readValue(jsondata, Three_POJOBaseClass.class); //POJOBaseClass is the java class file
 
         System.out.println("Name: " +stupojo.getName());
         System.out.println("Location: " +stupojo.getLocation());

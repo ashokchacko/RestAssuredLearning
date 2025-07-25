@@ -1,4 +1,4 @@
-public class POJOBaseClass {
+public class Three_POJOBaseClass {
 
     String name;
     String location;

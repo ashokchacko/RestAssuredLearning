@@ -1,10 +1,9 @@
-import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.useRelaxedHTTPSValidation;
 
-public class HandlingLogs {
+public class Eight_HandlingLogs {
 
     @BeforeClass
     public void setup()

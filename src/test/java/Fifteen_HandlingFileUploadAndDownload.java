@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class HandlingFileUploadAndDownload {
+public class Fifteen_HandlingFileUploadAndDownload {
 
     @Test(priority = 1)
     void singleFileUpload()

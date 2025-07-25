@@ -1,7 +1,7 @@
 import com.github.javafaker.Faker;
 import org.testng.annotations.Test;
 
-public class HandlingFakerDataGenerator {
+public class Nine_HandlingFakerDataGenerator {
 
     @Test
     void generateDummyData()

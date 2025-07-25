@@ -1,11 +1,9 @@
-import io.restassured.RestAssured;
 import io.restassured.matcher.RestAssuredMatchers;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-public class HandlingXmlSchemaValidation {
+public class Thriteen_HandlingXmlSchemaValidation {
 
     @BeforeClass
     public void setup()

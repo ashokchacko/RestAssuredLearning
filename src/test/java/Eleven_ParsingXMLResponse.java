@@ -9,7 +9,7 @@ import java.util.List;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class ParsingXMLResponse {
+public class Eleven_ParsingXMLResponse {
 
     @BeforeClass
     public void setup()

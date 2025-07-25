@@ -3,9 +3,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-public class HandlingChainingDeleteUser {
+public class Nineteen_HandlingChainingDeleteUser {
 
     @BeforeClass
     public void setup()

@@ -1,9 +1,8 @@
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-public class HandlingJsonSchemaValidation {
+public class Twelve_HandlingJsonSchemaValidation {
 
     @Test(priority = 1)
     void jsonSchemaValidation()

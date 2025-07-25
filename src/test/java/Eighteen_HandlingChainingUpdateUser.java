@@ -4,9 +4,8 @@ import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-public class HandlingChainingUpdateUser {
+public class Eighteen_HandlingChainingUpdateUser {
 
     @BeforeClass
     public void setup()

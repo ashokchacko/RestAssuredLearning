@@ -4,7 +4,7 @@ import java.util.HashMap;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class HandlingHttpMethods {
+public class One_HandlingHttpMethods {
     int id;
 
     @BeforeClass

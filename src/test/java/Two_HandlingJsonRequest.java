@@ -1,15 +1,12 @@
-import io.cucumber.java.en.Given;
 import org.json.*;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import java.io.*;
 import java.util.HashMap;
-import java.util.HashSet;
+
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
-public class HandlingJsonRequest {
+public class Two_HandlingJsonRequest {
     //HashMap Method
     //@Test(priority = 1)
     void hashMapMethod()
@@ -63,7 +60,7 @@ public class HandlingJsonRequest {
     //@Test(priority = 3)
     void pojoClassMethod()
     {
-        POJOBaseClass data = new POJOBaseClass();
+        Three_POJOBaseClass data = new Three_POJOBaseClass();
         data.setName("Glenn");
         data.setLocation("Australia");
         data.setPhone("9899999999");

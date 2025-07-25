@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
 
-public class HandlingPathAndQueryParameters {
+public class Six_HandlingPathAndQueryParameters {
 
     @BeforeClass
     public void setup()

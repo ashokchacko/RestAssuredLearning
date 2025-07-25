@@ -2,9 +2,8 @@ import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-public class HandlingChainingGetUser {
+public class Seventeen_HandlingChainingGetUser {
 
     @BeforeClass
     public void setup()

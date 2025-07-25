@@ -1,13 +1,11 @@
 import com.github.javafaker.Faker;
-import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-public class HandlingChainingCreateUser {
+public class Sixteen_HandlingChainingCreateUser {
 
     @BeforeClass
     public void setup()

@@ -3,9 +3,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import java.util.Map;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-public class HandlingCookies {
+public class Five_HandlingCookies {
 
     @BeforeClass
     public void setup()

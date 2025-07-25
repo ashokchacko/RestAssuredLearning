@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class HandlingAuthentications {
+public class Fourteen_HandlingAuthentications {
 
     @BeforeClass
     public void setup()
@@ -55,7 +55,7 @@ public class HandlingAuthentications {
     @Test(priority = 4)
     void bearerTokenAuthentication() //Bearer Token authentication using token
     {
-        String bearertoken = "test";
+        String bearertoken = "Test";
 
         given()
                     .headers("Authorization", "Bearer " +bearertoken)
@@ -83,7 +83,7 @@ public class HandlingAuthentications {
     void oAuth2Authentication() // oauth2.0 authentication
     {
         given()
-                    .auth().oauth2("test")
+                    .auth().oauth2("Test")
                 .when()
                     .get("https://api.github.com/user/repos")
                 .then()

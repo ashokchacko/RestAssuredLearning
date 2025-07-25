@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class ParsingJsonResponse {
+public class Ten_ParsingJsonResponse {
 
     @BeforeClass
     public void setup()
