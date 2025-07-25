@@ -55,11 +55,10 @@ public class HandlingAuthentications {
     @Test(priority = 4)
     void bearerTokenAuthentication() //Bearer Token authentication using token
     {
-
-
+        String bearertoken = "test";
 
         given()
-                    .headers("Authorization", "Bearer bearertoken")
+                    .headers("Authorization", "Bearer " +bearertoken)
                 .when()
                     .get("https://api.github.com/user/repos")
                 .then()
@@ -84,7 +83,7 @@ public class HandlingAuthentications {
     void oAuth2Authentication() // oauth2.0 authentication
     {
         given()
-
+                    .auth().oauth2("test")
                 .when()
                     .get("https://api.github.com/user/repos")
                 .then()
